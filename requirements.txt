@@ -1,11 +1,28 @@
+# 用于模型加速训练的库
 accelerate==0.19.0
+
+# Python的数值计算核心库
 numpy>=1.24.4
+
+# 用于文本分词的库，常用于NLP任务
 sentencepiece~=0.1.98
+
+# PyTorch的计算机视觉工具库
 torchvision>=0.15.2
+
+# Hugging Face的转换器库，用于加载和使用预训练模型
 transformers>=4.35.2,<5.0.0
+
+# GGUF文件格式支持，用于模型量化和优化
 gguf>=0.1.0
+
+# 深度学习高级API框架
 keras==2.15.0
+
+# 深度学习框架
 tensorflow==2.15.0
 
+# 指定使用CPU版本的PyTorch包源
 --extra-index-url https://download.pytorch.org/whl/cpu
+# PyTorch深度学习框架
 torch~=2.2.1
